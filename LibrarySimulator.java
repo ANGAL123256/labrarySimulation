@@ -73,7 +73,8 @@ public class LibrarySimulator {
                 break;  
             case 5:  
                 System.out.println("Session ended. Total books currently borrowed: " + status.getBorrowedCount());  
-                sessionActive = false;  
+                sessionActive = false;
+				status.reset();
                 break;  
             default:  
                 System.out.println("Invalid option. Try again.");  
