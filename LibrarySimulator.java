@@ -83,12 +83,8 @@ public class LibrarySimulator {
             
         }
             else if (choice == 4) {  
-                System.out.print("Enter admin password: "); 
-                String password= input.next();
                 
-                if (!password.equals("admin")) {  
-                    System.out.println("Invalid password. Access denied.");  
-                } else {  
+                  
                     boolean adminActive = true;  
                     while (adminActive) {  
                         System.out.println("\n===== Administrator Menu =====");  
@@ -122,7 +118,7 @@ public class LibrarySimulator {
                                 System.out.println("Invalid option. Try again.");  
                                 break;  
                         }  
-                    }  
+                     
                 }  
   
             } 
