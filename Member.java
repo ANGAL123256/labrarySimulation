@@ -37,7 +37,7 @@ public class Member {
 		return borrowedCount<5; 
 	}
 	private boolean canReturn() {
-		return borrowedCount>1;
+		return borrowedCount>0;
 	}
 	public void viewBorrowedCount() {
 		numViewBorrowed++;
