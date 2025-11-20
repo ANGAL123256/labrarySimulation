@@ -1,5 +1,12 @@
 package labrarySimulation;
-
+/*
+ * Project Phase #2
+ * * Group Members:
+ * 1. Ahmed Abdullah Al-Musallam - ID: 446104786
+ * 2. Abdullah Khalil Abu Nadi  - ID:  446103718
+ * 3. Mohammed Saad Al-Rajhi    - ID: 446104643
+ * * GitHub Repository: https://github.com/ANGAL123256/labrarySimulation
+ */
 public class Member {
 	
 	
