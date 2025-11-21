@@ -14,7 +14,11 @@ public class LibrarySimulator {
 	public static void main(String[] args) {
         boolean running = true;  
 
-        Scanner input = new Scanner(System.in);  
+        Scanner input = new Scanner(System.in); 
+		// Create three member accounts
+        Member U1 = new Member(1,"User 100",0);  
+        Member U2 = new Member(2,"User 101",0);  
+        Member U3 = new Member(3,"User 102 ", 0);
           
 		// Main program loop
         while (running) {  
