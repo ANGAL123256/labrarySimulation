@@ -60,7 +60,7 @@ public class Member {
     	sessionFees+=0.5;
     	TotalRevenue+=0.5;
     	
-    	System.out.printf("Book borrowed successfully. Fee: %.2f\\n\"",0.5);
+    	System.out.printf("Book borrowed successfully. Fee: %.2f\n\"",0.5);
     	
     	return true;
     	
