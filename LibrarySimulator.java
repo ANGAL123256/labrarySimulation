@@ -130,7 +130,7 @@ public class LibrarySimulator {
                 System.out.println("Exiting Program. Goodbye!");
                 running = false;
             }
-				// Invalid main menu choice
+				// Invalid main menu choice (retries entry)
             else {
                 System.out.println("Invalid choice. Please try again.");
             }   }
